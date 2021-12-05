@@ -19,7 +19,7 @@ cd to the project location
 
       - docker-compose up
 
-# Step 2
+## Step 2
 
 You can enter different urls and pass a list of numbers to calculate its mean :
 
@@ -30,7 +30,7 @@ Or you can just test the home url :
 
 - http://localhost:8080 (get "success" : True)
 
-# Step 3
+## Step 3
 
 Do not forget to :
 
