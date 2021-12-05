@@ -8,7 +8,7 @@
 
     - test that calls the website's url and confirms a code reply of 200 (working site)
   
-    -  test that sends a GET request to the website and confirms that the website returns the correct answer (correct output)
+    - test that sends a GET request to the website and confirms that the website returns the correct answer (correct output)
   
     - the average response time of the site should be below 100 ms per request, when 1000 requests are sent per second (stress handled)
 
@@ -30,10 +30,10 @@ Or you can just test the home url :
 
 - http://localhost:8080 (get "success" : True)
 
-## Step 2
+# Step 3
 
 Do not forget to :
 
     - docker-compose down
 
-When you are done.
+when you are done.
