@@ -1,0 +1,16 @@
+version: '3.9'
+
+# one compose, multiple containers
+
+services:
+  app:
+    build: ./api
+    ports:
+      - 8080:8080
+
+  tester:
+    build: ./tests
+    depends_on: 
+      - app # wait for the webapp to be launched
+
+
